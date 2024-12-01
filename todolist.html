@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List with Local Storage</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script defer src="/js/script.js"></script>
+</head>
+<body class="bg-gray-100 text-gray-800">
+
+    <div class="min-h-screen flex items-center justify-center">
+        <div class="bg-white p-6 rounded-lg shadow-lg w-96">
+            <h2 class="text-2xl font-semibold mb-6 text-center">To-Do List</h2>
+            <div class="space-y-4">
+                <!-- Input Field and Add Button -->
+                <div class="flex items-center space-x-2">
+                    <input id="todo-input" type="text" class="flex-grow p-2 border border-gray-300 rounded" placeholder="Add a new task..." />
+                    <button id="add-btn" class="bg-blue-500 text-white px-4 py-2 rounded">Add</button>
+                </div>
+                
+                <!-- To-Do List -->
+                <ul id="todo-list" class="space-y-2 mt-4"></ul>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

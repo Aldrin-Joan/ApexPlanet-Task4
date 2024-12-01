@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Home - Aldrin</title>
+    <style>
+        .hero-image {
+            margin-left: 50px;
+        }
+        .hero-image img {
+            max-width: 300px;
+            border-radius: 50%;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+        }
+    </style>
+</head>
+<body class="bg-gray-100 text-gray-800">
+
+    <header>
+        <nav class="fixed top-0 w-full bg-white shadow-md z-50">
+            <div class="container mx-auto flex justify-between items-center py-4 px-6">
+                <div class="text-2xl font-bold">Aj</div>
+                <ul class="flex space-x-6">
+                    <li><a href="index.html" class="text-blue-500 border-b-2 border-blue-500">Home</a></li>
+                    <li><a href="about.html" class="text-gray-700 hover:text-blue-500">About</a></li>
+                    <li><a href="skills.html" class="text-gray-700 hover:text-blue-500">Skills</a></li>
+                    <li><a href="projects.html" class="text-gray-700 hover:text-blue-500">Projects</a></li>
+                    <li><a href="contact.html" class="text-gray-700 hover:text-blue-500">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <section class="min-h-screen flex flex-col items-center justify-center text-center pt-20">
+        <div class="hero-image">
+            <img src="hero_img.jpg" alt="Aldrin's Portrait" class="rounded-full shadow-xl">
+        </div>
+        <h1 class="text-4xl md:text-6xl font-bold mt-6 mb-4">Welcome to <span class="text-blue-500">Aldrin's Portfolio</span></h1>
+        <p class="text-lg md:text-xl text-gray-600 mb-6">Explore my projects, skills, and achievements.</p>
+        <a href="about.html" class="bg-blue-500 text-white px-6 py-3 rounded-full hover:bg-blue-600 transition">
+            Learn More About Me
+        </a>
+    </section>
+
+</body>
+</html>
